@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
@@ -13,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.5.0",
+    "concurrently": "^6.5.0",
     "graphql": "^16.0.1",
     "mongoose": "^6.0.13"
   }
